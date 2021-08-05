@@ -1,0 +1,30 @@
+<?php
+		// Group 0x0032
+		DicomParser\Nanodicom_Dictionary::$dict[0x0032][0x0000] = array('UL', '1', 'StudyGroupLength', 'RET');
+		DicomParser\Nanodicom_Dictionary::$dict[0x0032][0x000A] = array('CS', ' 1 ', 'StudyStatusID', 'RET');
+		DicomParser\Nanodicom_Dictionary::$dict[0x0032][0x000C] = array('CS', ' 1 ', 'StudyPriorityID', 'RET');
+		DicomParser\Nanodicom_Dictionary::$dict[0x0032][0x0012] = array('LO', ' 1 ', 'StudyIDIssuer', 'RET');
+		DicomParser\Nanodicom_Dictionary::$dict[0x0032][0x0032] = array('DA', ' 1 ', 'StudyVerifiedDate', 'RET');
+		DicomParser\Nanodicom_Dictionary::$dict[0x0032][0x0033] = array('TM', ' 1 ', 'StudyVerifiedTime', 'RET');
+		DicomParser\Nanodicom_Dictionary::$dict[0x0032][0x0034] = array('DA', ' 1 ', 'StudyReadDate', 'RET');
+		DicomParser\Nanodicom_Dictionary::$dict[0x0032][0x0035] = array('TM', ' 1 ', 'StudyReadTime', 'RET');
+		DicomParser\Nanodicom_Dictionary::$dict[0x0032][0x1000] = array('DA', ' 1 ', 'ScheduledStudyStartDate', 'RET');
+		DicomParser\Nanodicom_Dictionary::$dict[0x0032][0x1001] = array('TM', ' 1 ', 'ScheduledStudyStartTime', 'RET');
+		DicomParser\Nanodicom_Dictionary::$dict[0x0032][0x1010] = array('DA', ' 1 ', 'ScheduledStudyStopDate', 'RET');
+		DicomParser\Nanodicom_Dictionary::$dict[0x0032][0x1011] = array('TM', ' 1 ', 'ScheduledStudyStopTime', 'RET');
+		DicomParser\Nanodicom_Dictionary::$dict[0x0032][0x1020] = array('LO', ' 1 ', 'ScheduledStudyLocation', 'RET');
+		DicomParser\Nanodicom_Dictionary::$dict[0x0032][0x1021] = array('AE', ' 1-n ', 'ScheduledStudyLocationAEtitle', 'RET');
+		DicomParser\Nanodicom_Dictionary::$dict[0x0032][0x1030] = array('LO', ' 1 ', 'ReasonForStudy', 'RET');
+		DicomParser\Nanodicom_Dictionary::$dict[0x0032][0x1031] = array('SQ', ' 1', 'RequestingPhysicianIdentificationSequence');
+		DicomParser\Nanodicom_Dictionary::$dict[0x0032][0x1032] = array('PN', ' 1', 'RequestingPhysician');
+		DicomParser\Nanodicom_Dictionary::$dict[0x0032][0x1033] = array('LO', ' 1', 'RequestingService');
+		DicomParser\Nanodicom_Dictionary::$dict[0x0032][0x1034] = array('SQ', ' 1', 'RequestingServiceCodeSequence');
+		DicomParser\Nanodicom_Dictionary::$dict[0x0032][0x1040] = array('DA', ' 1 ', 'StudyArrivalDate', 'RET');
+		DicomParser\Nanodicom_Dictionary::$dict[0x0032][0x1041] = array('TM', ' 1 ', 'StudyArrivalTime', 'RET');
+		DicomParser\Nanodicom_Dictionary::$dict[0x0032][0x1050] = array('DA', ' 1 ', 'StudyCompletionDate', 'RET');
+		DicomParser\Nanodicom_Dictionary::$dict[0x0032][0x1051] = array('TM', ' 1 ', 'StudyCompletionTime', 'RET');
+		DicomParser\Nanodicom_Dictionary::$dict[0x0032][0x1055] = array('CS', ' 1 ', 'StudyComponentStatusID', 'RET');
+		DicomParser\Nanodicom_Dictionary::$dict[0x0032][0x1060] = array('LO', ' 1', 'RequestedProcedureDescription');
+		DicomParser\Nanodicom_Dictionary::$dict[0x0032][0x1064] = array('SQ', ' 1', 'RequestedProcedureCodeSequence');
+		DicomParser\Nanodicom_Dictionary::$dict[0x0032][0x1070] = array('LO', ' 1', 'RequestedContrastAgent');
+		DicomParser\Nanodicom_Dictionary::$dict[0x0032][0x4000] = array('LT', ' 1 ', 'StudyComments', 'RET');

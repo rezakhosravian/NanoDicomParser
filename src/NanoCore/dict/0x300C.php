@@ -1,0 +1,33 @@
+<?php
+		// Group 0x300C
+		DicomParser\Nanodicom_Dictionary::$dict[0x300C][0x0002] = array('SQ', ' 1', 'ReferencedRTPlanSequence');
+		DicomParser\Nanodicom_Dictionary::$dict[0x300C][0x0004] = array('SQ', ' 1', 'ReferencedBeamSequence');
+		DicomParser\Nanodicom_Dictionary::$dict[0x300C][0x0006] = array('IS', ' 1', 'ReferencedBeamNumber');
+		DicomParser\Nanodicom_Dictionary::$dict[0x300C][0x0007] = array('IS', ' 1', 'ReferencedReferenceImageNumber');
+		DicomParser\Nanodicom_Dictionary::$dict[0x300C][0x0008] = array('DS', ' 1', 'StartCumulativeMetersetWeight');
+		DicomParser\Nanodicom_Dictionary::$dict[0x300C][0x0009] = array('DS', ' 1', 'EndCumulativeMetersetWeight');
+		DicomParser\Nanodicom_Dictionary::$dict[0x300C][0x000A] = array('SQ', ' 1', 'ReferencedBrachyApplicationSetupSequence');
+		DicomParser\Nanodicom_Dictionary::$dict[0x300C][0x000C] = array('IS', ' 1', 'ReferencedBrachyApplicationSetupNumber');
+		DicomParser\Nanodicom_Dictionary::$dict[0x300C][0x000E] = array('IS', ' 1', 'ReferencedSourceNumber');
+		DicomParser\Nanodicom_Dictionary::$dict[0x300C][0x0020] = array('SQ', ' 1', 'ReferencedFractionGroupSequence');
+		DicomParser\Nanodicom_Dictionary::$dict[0x300C][0x0022] = array('IS', ' 1', 'ReferencedFractionGroupNumber');
+		DicomParser\Nanodicom_Dictionary::$dict[0x300C][0x0040] = array('SQ', ' 1', 'ReferencedVerificationImageSequence');
+		DicomParser\Nanodicom_Dictionary::$dict[0x300C][0x0042] = array('SQ', ' 1', 'ReferencedReferenceImageSequence');
+		DicomParser\Nanodicom_Dictionary::$dict[0x300C][0x0050] = array('SQ', ' 1', 'ReferencedDoseReferenceSequence');
+		DicomParser\Nanodicom_Dictionary::$dict[0x300C][0x0051] = array('IS', ' 1', 'ReferencedDoseReferenceNumber');
+		DicomParser\Nanodicom_Dictionary::$dict[0x300C][0x0055] = array('SQ', ' 1', 'BrachyReferencedDoseReferenceSequence');
+		DicomParser\Nanodicom_Dictionary::$dict[0x300C][0x0060] = array('SQ', ' 1', 'ReferencedStructureSetSequence');
+		DicomParser\Nanodicom_Dictionary::$dict[0x300C][0x006A] = array('IS', ' 1', 'ReferencedPatientSetupNumber');
+		DicomParser\Nanodicom_Dictionary::$dict[0x300C][0x0080] = array('SQ', ' 1', 'ReferencedDoseSequence');
+		DicomParser\Nanodicom_Dictionary::$dict[0x300C][0x00A0] = array('IS', ' 1', 'ReferencedToleranceTableNumber');
+		DicomParser\Nanodicom_Dictionary::$dict[0x300C][0x00B0] = array('SQ', ' 1', 'ReferencedBolusSequence');
+		DicomParser\Nanodicom_Dictionary::$dict[0x300C][0x00C0] = array('IS', ' 1', 'ReferencedWedgeNumber');
+		DicomParser\Nanodicom_Dictionary::$dict[0x300C][0x00D0] = array('IS', ' 1', 'ReferencedCompensatorNumber');
+		DicomParser\Nanodicom_Dictionary::$dict[0x300C][0x00E0] = array('IS', ' 1', 'ReferencedBlockNumber');
+		DicomParser\Nanodicom_Dictionary::$dict[0x300C][0x00F0] = array('IS', ' 1', 'ReferencedControlPointIndex');
+		DicomParser\Nanodicom_Dictionary::$dict[0x300C][0x00F2] = array('SQ', ' 1', 'ReferencedControlPointSequence');
+		DicomParser\Nanodicom_Dictionary::$dict[0x300C][0x00F4] = array('IS', ' 1', 'ReferencedStartControlPointIndex');
+		DicomParser\Nanodicom_Dictionary::$dict[0x300C][0x00F6] = array('IS', ' 1', 'ReferencedStopControlPointIndex');
+		DicomParser\Nanodicom_Dictionary::$dict[0x300C][0x0100] = array('IS', ' 1', 'ReferencedRangeShifterNumber');
+		DicomParser\Nanodicom_Dictionary::$dict[0x300C][0x0102] = array('IS', ' 1', 'ReferencedLateralSpreadingDeviceNumber');
+		DicomParser\Nanodicom_Dictionary::$dict[0x300C][0x0104] = array('IS', ' 1', 'ReferencedRangeModulatorNumber');

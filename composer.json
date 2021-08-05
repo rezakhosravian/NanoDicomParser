@@ -1,0 +1,24 @@
+{
+    "name": "rezakhosravian/nanodicom",
+    "description": "parser of dicom",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "rezakhosravian",
+            "email": "rezakhosravian45@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DicomParser\\": "/src/NanoCore"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}

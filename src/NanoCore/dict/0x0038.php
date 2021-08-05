@@ -1,0 +1,31 @@
+<?php
+		// Group 0x0038
+		DicomParser\Nanodicom_Dictionary::$dict[0x0038][0x0000] = array('UL', '1', 'VisitGroupLength', 'RET');
+		DicomParser\Nanodicom_Dictionary::$dict[0x0038][0x0004] = array('SQ', ' 1', 'ReferencedPatientAliasSequence');
+		DicomParser\Nanodicom_Dictionary::$dict[0x0038][0x0008] = array('CS', ' 1', 'VisitStatusID');
+		DicomParser\Nanodicom_Dictionary::$dict[0x0038][0x0010] = array('LO', ' 1', 'AdmissionID');
+		DicomParser\Nanodicom_Dictionary::$dict[0x0038][0x0011] = array('LO', ' 1 ', 'IssuerOfAdmissionID', 'RET');
+		DicomParser\Nanodicom_Dictionary::$dict[0x0038][0x0014] = array('SQ', ' 1', 'IssuerOfAdmissionIDSequence');
+		DicomParser\Nanodicom_Dictionary::$dict[0x0038][0x0016] = array('LO', ' 1', 'RouteOfAdmissions');
+		DicomParser\Nanodicom_Dictionary::$dict[0x0038][0x001A] = array('DA', ' 1 ', 'ScheduledAdmissionDate', 'RET');
+		DicomParser\Nanodicom_Dictionary::$dict[0x0038][0x001B] = array('TM', ' 1 ', 'ScheduledAdmissionTime', 'RET');
+		DicomParser\Nanodicom_Dictionary::$dict[0x0038][0x001C] = array('DA', ' 1 ', 'ScheduledDischargeDate', 'RET');
+		DicomParser\Nanodicom_Dictionary::$dict[0x0038][0x001D] = array('TM', ' 1 ', 'ScheduledDischargeTime', 'RET');
+		DicomParser\Nanodicom_Dictionary::$dict[0x0038][0x001E] = array('LO', ' 1 ', 'ScheduledPatientInstitutionResidence', 'RET');
+		DicomParser\Nanodicom_Dictionary::$dict[0x0038][0x0020] = array('DA', ' 1', 'AdmittingDate');
+		DicomParser\Nanodicom_Dictionary::$dict[0x0038][0x0021] = array('TM', ' 1', 'AdmittingTime');
+		DicomParser\Nanodicom_Dictionary::$dict[0x0038][0x0030] = array('DA', ' 1 ', 'DischargeDate', 'RET');
+		DicomParser\Nanodicom_Dictionary::$dict[0x0038][0x0032] = array('TM', ' 1 ', 'DischargeTime', 'RET');
+		DicomParser\Nanodicom_Dictionary::$dict[0x0038][0x0040] = array('LO', ' 1 ', 'DischargeDiagnosisDescription', 'RET');
+		DicomParser\Nanodicom_Dictionary::$dict[0x0038][0x0044] = array('SQ', ' 1 ', 'DischargeDiagnosisCodeSequence', 'RET');
+		DicomParser\Nanodicom_Dictionary::$dict[0x0038][0x0050] = array('LO', ' 1', 'SpecialNeeds');
+		DicomParser\Nanodicom_Dictionary::$dict[0x0038][0x0060] = array('LO', ' 1', 'ServiceEpisodeID');
+		DicomParser\Nanodicom_Dictionary::$dict[0x0038][0x0061] = array('LO', ' 1 ', 'IssuerOfServiceEpisodeID', 'RET');
+		DicomParser\Nanodicom_Dictionary::$dict[0x0038][0x0062] = array('LO', ' 1', 'ServiceEpisodeDescription');
+		DicomParser\Nanodicom_Dictionary::$dict[0x0038][0x0064] = array('SQ', ' 1', 'IssuerOfServiceEpisodeIDSequence');
+		DicomParser\Nanodicom_Dictionary::$dict[0x0038][0x0100] = array('SQ', ' 1', 'PertinentDocumentsSequence');
+		DicomParser\Nanodicom_Dictionary::$dict[0x0038][0x0300] = array('LO', ' 1', 'CurrentPatientLocation');
+		DicomParser\Nanodicom_Dictionary::$dict[0x0038][0x0400] = array('LO', ' 1', 'PatientInstitutionResidence');
+		DicomParser\Nanodicom_Dictionary::$dict[0x0038][0x0500] = array('LO', ' 1', 'PatientState');
+		DicomParser\Nanodicom_Dictionary::$dict[0x0038][0x0502] = array('SQ', ' 1', 'PatientClinicalTrialParticipationSequence');
+		DicomParser\Nanodicom_Dictionary::$dict[0x0038][0x4000] = array('LT', ' 1', 'VisitComments');
