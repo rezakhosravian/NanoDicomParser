@@ -3,8 +3,8 @@
 ini_set('display_errors', 'On');
 error_reporting(E_ALL | E_STRICT);
 
-require 'nanodicom.php';
-
+require 'Nanodicom.php';
+use DicomParser\Nanodicom as Nano ;
 $dir = realpath(dirname(__FILE__)) . DIRECTORY_SEPARATOR . 'samples' . DIRECTORY_SEPARATOR;
 //$dir = '/Applications/MAMP/htdocs/s1/';
 
@@ -65,7 +65,8 @@ foreach ($files as $file) {
                 [0x0008,0x0090],  // ReferringPhysicianName
             ];
 
-            $dicom = Nanodicom::factory($filename, 'simple');
+
+            $dicom = Nano::factory($filename, 'simple');
 //            $dicom->parse(array(array(0x0010, 0x0010)));
             $dicom->parse($listArray);
             // Only a small subset of the dictionary entries were loaded

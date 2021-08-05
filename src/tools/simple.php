@@ -1,4 +1,5 @@
 <?php
+namespace DicomParser;
 /**
  * tools/simple.php file
  *

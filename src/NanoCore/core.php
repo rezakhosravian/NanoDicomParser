@@ -150,7 +150,7 @@ abstract class Nanodicom_Core {
 		}
 
 		// Add the Dicom prefix
-		$class = 'Dicom_'.$name;
+		$class = '\DicomParser\Dicom_'.$name;
 
 		return new $class($location, $name, $type);
 	}

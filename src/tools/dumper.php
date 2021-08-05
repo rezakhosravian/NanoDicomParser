@@ -1,4 +1,6 @@
 <?php
+namespace DicomParser;
+
 /**
  * tools/dumper.php file
  *

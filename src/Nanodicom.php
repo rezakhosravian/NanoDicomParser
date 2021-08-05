@@ -1,5 +1,5 @@
 <?php
-
+namespace DicomParser;
 /**
  * nanodicom.php file
  *
@@ -29,4 +29,5 @@ require_once NANODICOMCOREPATH.'core.php';
  * @copyright  (c) 2010-2011
  * @license    http://www.opensource.org/licenses/mit-license.php MIT-license
  */
-abstract class Nanodicom extends DicomParser\Nanodicom_Core {}
+//abstract class Nanodicom extends \DicomParser\Nanodicom_Core {}
+abstract class Nanodicom extends Nanodicom_Core {}
